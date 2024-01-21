@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: "Golos Text", sans-serif;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.head {
+    background-color: black;
+    height: 56px;
+}
+
+.header {
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.content {
+    width: 980px;
+    padding: 0 40px;
+}
+
+.navigation {
+    padding: 0 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    padding: 0 8px;
+    color: white;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation a li:hover{
+    color: red;
+}
+
+.image {
+    border-radius: 8px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 40px;
+}
